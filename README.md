@@ -1,2 +1,2 @@
 # extensionUrlToHex
-test des extensions firefox avec une extension qui transforme chaque charactères de son url en hex
+Test des extensions avec une extension qui transforme les caractères de ce que l'on sélectionne en hex
