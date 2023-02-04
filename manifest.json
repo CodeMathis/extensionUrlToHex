@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Hurlex",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/CodeMathis/extensionUrlToHex",
+  "description": "Une extension qui permet de transformer les caractères d'une url que l'on souhaite en sa version hexadecimale qui fonctionne toujours",
+  "action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}
