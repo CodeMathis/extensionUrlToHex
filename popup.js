@@ -31,8 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         //check pour problèmes avec %, = et &
         for (let lettre = 0; lettre < lienConverti.length; lettre++){
-            console.log(lettre+1);
-            //console.log(lienConverti[lettre] + " " + lienConverti[lettre+1] + " " + lienConverti[lettre+2]);
             if (lienConverti[lettre] === "%" && lienConverti[lettre+1] === "3" && lienConverti[lettre+2] === "f"){
                 lienConverti = lienConverti.substring(0, lettre) + "?" + lienConverti.substring(lettre+3, lienConverti.length);
             }else if (lienConverti[lettre] === "%" && lienConverti[lettre+1] === "3" && lienConverti[lettre+2] === "d"){
